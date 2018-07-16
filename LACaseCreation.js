@@ -24,7 +24,7 @@ function myFunction(){
 			document.getElementById('BUTTON_NEXT1').click();
 		}
 	}
-	if(!!(document.getElementsByClassName('applicationListItem')[0].getElementsByTagName('a')[0])){
+	if(!!(document.getElementsByClassName('applicationListItem')[0])){
 		if(document.getElementsByClassName('applicationListItem')[0].getElementsByTagName('a')[0].innerHTML=='My Applications'){		
 			document.getElementsByClassName('applicationListItem')[0].getElementsByTagName('a')[0].click();
 		}
