@@ -8,9 +8,6 @@ function myFunction(){
 		document.getElementById('agreePolicy').checked = true;	
 		document.getElementById('BUTTON_NEXT1').click();
 	}
-	if(document.getElementsByClassName('applicationListItem')[0].getElementsByTagName('a')[0].innerHTML=='My Applications'){		
-		document.getElementsByClassName('applicationListItem')[0].getElementsByTagName('a')[0].click();
-	}
 	if(document.getElementsByTagName('legend')[0].innerHTML=='Apply For Benefits/Services'){	
 		document.getElementById('BUTTON_NEXT1').click();
 	}	
