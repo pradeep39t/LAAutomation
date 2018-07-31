@@ -42,7 +42,7 @@ function myFunction(){
 	if(!!(document.getElementsByTagName('legend')[0])){
 		if(document.getElementsByTagName('legend')[0].innerHTML=='<strong class="required_field">*</strong>Which Benefits/Services Would You Like to Apply For?'){	
 			document.getElementById('requestFoodShare').checked = true;	
-			document.getElementById('BUTTON_NEXT1').click(); 		
+			//document.getElementById('BUTTON_NEXT1').click(); 		
 		}
 	}
 	if(!!(document.getElementsByTagName('legend')[0])){
@@ -82,7 +82,7 @@ function myFunction(){
 			document.getElementById('understandEnglish_N').checked = true;
 			document.getElementById('writeYourLettersInEnglishOrSpanish').value = 'E';
 			document.getElementById('radioGroup_intprtr_N').checked = true;
-			document.getElementById('BUTTON_NEXT1').click();
+			//document.getElementById('BUTTON_NEXT1').click();
 		}
 	}
 	if(!!(document.getElementsByTagName('legend')[0])){
@@ -103,6 +103,25 @@ function myFunction(){
 			document.getElementById('hspcInd_Y').checked = true;
 			document.getElementById('blkInd_race').checked = true;
 			document.getElementById('loopingQuestion_N').checked = true;
+			document.getElementById('BUTTON_NEXT1').click();
+		}
+	}
+	if(!!(document.getElementsByTagName('legend')[0])){
+		if(document.getElementsByTagName('legend')[0].innerHTML=='Additional Information About People in Your Home'){
+			document.getElementById('NoOne_blindDisabled').checked = true;
+			document.getElementById('NoOne_fosterChildInfoRes').checked = true;
+			document.getElementById('BUTTON_NEXT1').click();
+		}
+	}
+	if(!!(document.getElementsByTagName('legend')[0])){
+		if(document.getElementsByTagName('legend')[0].innerHTML.indexOf('Disability')>=0){
+			document.getElementById('radioGroup_ssa_Y').checked = true;
+			document.getElementById('radioGroup_othIll_Y').checked = true;
+			document.getElementById('BUTTON_NEXT1').click();
+		}
+	}
+	if(!!(document.getElementsByTagName('legend')[0])){
+		if(document.getElementsByTagName('legend')[0].innerHTML=='Household Members Summary'){
 			document.getElementById('BUTTON_NEXT1').click();
 		}
 	}	
