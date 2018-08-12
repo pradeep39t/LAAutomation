@@ -156,7 +156,7 @@ function myFunction(){
 		}
 	}
 	if(!!(document.getElementsByTagName('legend')[0])){
-		if(document.getElementsByTagName('legend')[0].innerHTML.indexOf('Job')>=0){
+		if(document.getElementsByTagName('legend')[0].innerHTML.indexOf('Employer')>=0){
 			document.getElementById('employerName').value = 'Facebook';
 			document.getElementById('employerAddressLine1').value = '1 Hacker Way';
 			document.getElementById('employerCity').value = 'Menlo Park';
@@ -227,9 +227,9 @@ function myFunction(){
 			document.getElementById('addressLine1_llrd').value = 'Parkstreet Avenue';
 			document.getElementById('city_llrd').value = 'Menlo Park';		
 			document.getElementById('zipCode_llrd').value = '94025';
-			document.getElementById('cellPhone').value = '789';
-			document.getElementById('phone2cellPhone').value = '578';
-			document.getElementById('phone3cellPhone').value = '4578';		
+			document.getElementById('phoneNumber_llrd').value = '789';
+			document.getElementById('phone2phoneNumber_llrd').value = '578';
+			document.getElementById('phone3phoneNumber_llrd').value = '4578';		
 			document.getElementById('radioGroup1_N').checked = true;
 			document.getElementById('loopingQuestion_N').checked = true;
 			document.getElementById('BUTTON_NEXT1').click();
