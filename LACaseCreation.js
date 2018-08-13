@@ -114,7 +114,7 @@ function myFunction(){
 		if(document.getElementsByTagName('legend')[0].innerHTML=='Additional Information About People in Your Home'){
 			document.getElementById('NoOne_blindDisabled').checked = true;
 			document.getElementById('NoOne_fosterChildInfoRes').checked = true;
-			document.getElementById('BUTTON_NEXT1').click();
+			//document.getElementById('BUTTON_NEXT1').click();
 		}
 	}
 	if(!!(document.getElementsByTagName('legend')[0])){
@@ -137,7 +137,7 @@ function myFunction(){
 			document.getElementById('NoOne_otherStateBenefit').checked = true;
 			document.getElementById('NoOne_student').checked = true;
 			document.getElementById('NoOne_convictions').checked = true;			
-			document.getElementById('BUTTON_NEXT1').click();
+			//document.getElementById('BUTTON_NEXT1').click();
 		}
 	}
 	if(!!(document.getElementsByTagName('legend')[0])){
@@ -152,11 +152,11 @@ function myFunction(){
 			document.getElementById('NoOne_OnStrike').checked = true;
 			document.getElementById('NoOne_SelfEmp').checked = true;
 			document.getElementById('NoOne_LkngWrk').checked = true;		
-			document.getElementById('BUTTON_NEXT1').click();
+			//document.getElementById('BUTTON_NEXT1').click();
 		}
 	}
 	if(!!(document.getElementsByTagName('legend')[0])){
-		if(document.getElementsByTagName('legend')[0].innerHTML.indexOf('Employer')>=0){
+		if(document.getElementsByTagName('legend')[0].innerHTML.indexOf('Employer')>=-1){
 			document.getElementById('employerName').value = 'Facebook';
 			document.getElementById('employerAddressLine1').value = '1 Hacker Way';
 			document.getElementById('employerCity').value = 'Menlo Park';
@@ -197,7 +197,7 @@ function myFunction(){
 			document.getElementById('NoOne_FriFamily').checked = true;
 			document.getElementById('NoOne_VetrBnft').checked = true;		
 			document.getElementById('NoOne_OtherIncome').checked = true;
-			document.getElementById('BUTTON_NEXT1').click();
+			//document.getElementById('BUTTON_NEXT1').click();
 		}
 	}
 	if(!!(document.getElementsByTagName('legend')[0])){
@@ -216,7 +216,7 @@ function myFunction(){
 			document.getElementById('utilitiesInclude_N').checked = true;		
 			document.getElementById('NoOne_RoomAndMeals').checked = true;
 			document.getElementById('NoOne_meals').checked = true;
-			document.getElementById('BUTTON_NEXT1').click();
+			//document.getElementById('BUTTON_NEXT1').click();
 		}
 	}
 	if(!!(document.getElementsByTagName('legend')[0])){
@@ -255,7 +255,7 @@ function myFunction(){
 		}
 	}
 	if(!!(document.getElementsByTagName('legend')[0])){
-		if(document.getElementsByTagName('legend')[0].innerHTML=='Your Other Expenses'){
+		if(document.getElementsByTagName('legend')[0].innerHTML=='Liquid Resources'){
 			document.getElementById('NoOne_Cash').checked = true;		
 			document.getElementById('NoOne_SavingsAccount').checked = true;
 			document.getElementById('NoOne_CheckingAccount').checked = true;
@@ -264,7 +264,7 @@ function myFunction(){
 			document.getElementById('NoOne_FederalTaxRefund').checked = true;
 			document.getElementById('NoOne_OtherLiquidAssets').checked = true;
 			document.getElementById('NoOne_Transfer').checked = true;			
-			document.getElementById('BUTTON_NEXT1').click();
+			//document.getElementById('BUTTON_NEXT1').click();
 		}
 	}
 	if(!!(document.getElementsByTagName('legend')[0])){
