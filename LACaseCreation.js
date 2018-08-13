@@ -3,10 +3,10 @@ function myFunction(){
 		if(document.getElementsByTagName('legend')[0].innerHTML=='What action are you trying to perform?'){	
 			document.getElementById('radioGroup1_1').checked = true;	
 			document.getElementById('zipCode').value = 70148;
-			document.getElementById('socialSecurity').value=Math.floor(Math.random() * 899+100);
-			document.getElementById('ssn2socialSecurity').value=Math.floor(Math.random() * 99+10);
-			document.getElementById('ssn3socialSecurity').value=Math.floor(Math.random() * 8999+1000);
-			document.getElementById('dateOfBirth').value = '07/22/1985';
+			//document.getElementById('socialSecurity').value=Math.floor(Math.random() * 899+100);
+			//document.getElementById('ssn2socialSecurity').value=Math.floor(Math.random() * 99+10);
+			//document.getElementById('ssn3socialSecurity').value=Math.floor(Math.random() * 8999+1000);
+			//document.getElementById('dateOfBirth').value = '07/22/1985';
 			document.getElementById('BUTTON_NEXT1').click();
 		}
 	}
@@ -156,7 +156,7 @@ function myFunction(){
 		}
 	}
 	if(!!(document.getElementsByTagName('legend')[0])){
-		if(document.getElementsByTagName('legend')[0].innerHTML.indexOf('Employer')>=-1){
+		if(document.getElementsByTagName('legend')[0].innerHTML.indexOf('Job')>=0 && document.getElementsByTagName('legend')[0].innerHTML!='Job Income Summary'){
 			document.getElementById('employerName').value = 'Facebook';
 			document.getElementById('employerAddressLine1').value = '1 Hacker Way';
 			document.getElementById('employerCity').value = 'Menlo Park';
