@@ -95,7 +95,7 @@ function myFunction(){
 		}
 	}
 	if(!!(document.getElementsByTagName('legend')[0])){
-		if(document.getElementsByTagName('legend')[0].innerHTML=='People In Your Home'){
+		if(document.getElementsByTagName('legend')[0].innerHTML=='People In Your Home'||document.getElementsByTagName('legend')[0].innerHTML=='Personal Information'){
 			document.getElementById('maritalStatus').value = 'MA';		
 			document.getElementById('schoolDetails').value = '98';
 			document.getElementById('radioGroup_otherName_N').checked = true;
@@ -107,7 +107,7 @@ function myFunction(){
 			document.getElementById('hspcInd_Y').checked = true;
 			document.getElementById('blkInd_race').checked = true;
 			document.getElementById('loopingQuestion_N').checked = true;
-			document.getElementById('BUTTON_NEXT1').click();
+			//document.getElementById('BUTTON_NEXT1').click();
 		}
 	}
 	if(!!(document.getElementsByTagName('legend')[0])){
